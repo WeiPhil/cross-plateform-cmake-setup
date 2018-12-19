@@ -1,10 +1,12 @@
 # Cross-Plateform CMake template - a simple template cmake project structure for GLEW and SFML
 
 This directory structure allows to add in a simple way new third-party librarie editting the `CMakeLists.txt`
-at the root directory and the one in `ext` folder.
+at the root directory and the one in `ext` folder. 
 
-[SFML](https://www.sfml-dev.org/)
-[GLEW](http://glew.sourceforge.net/)
+An example project has been setup to show an example with the open-source libraries GLEW and SFML.
+
+[SFML - Simple and Fast Multimedia Library](https://www.sfml-dev.org/) <br />
+[GLEW - The OpenGL Extension Wrangler Library](http://glew.sourceforge.net/) <br />
 
 ## Authors
 
