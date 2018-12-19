@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.1)
 
 # Project name
-project(SFMLTest)
+project(YOUR_PROJECT_NAME)
 
 add_subdirectory(ext ext_build)
 
@@ -16,7 +16,7 @@ include_directories(
   ${GLEW_INCLUDE_DIRS}
 )
 
-add_executable(SFMLTest
+add_executable(YOUR_PROJECT_NAME
 
   # Source files
   src/main.cpp
@@ -24,4 +24,4 @@ add_executable(SFMLTest
 )
 
 # Linking libraries to project
-target_link_libraries(SFMLTest sfml-graphics sfml-audio glew)
+target_link_libraries(YOUR_PROJECT_NAME sfml-graphics sfml-audio glew)
